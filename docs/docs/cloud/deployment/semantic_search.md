@@ -89,7 +89,7 @@ from openai import AsyncOpenAI
 
 client = AsyncOpenAI()
 
-async def aembed_texts(texts: list[str]) -> list[list[float]]:
+async def embedd_texts(texts: list[str]) -> list[list[float]]:
     """Custom embedding function that must:
     1. Be async
     2. Accept a list of strings
